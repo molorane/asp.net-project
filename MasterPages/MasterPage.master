@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPages_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+   <form id="form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+            </div>
+            <div class="loginDisplay">
+                <p>
+                        <b><asp:LoginName ID="LoginName1" runat="server" 
+                            FormatString="Welcome, {0}!" /></b>
+                    </p>
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="clear hideSkiplink">
+                    <asp:Menu ID="mnuMainMenu" runat="server" CssClass="menu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                </div>
+            </div>
+            <div class="main">
+                <asp:SiteMapPath ID="smpSitePath" runat="server"></asp:SiteMapPath>
+                <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="footer">
+            <p>CSIS3734 2017 Final Year Project - <b>MM MOLORANE, 2014098616</b></p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/" title="Home"  description="">
+    <siteMapNode url="~/Default.aspx" title="Home"  description="" />
+    <siteMapNode url="~/Customer/Default.aspx" title="Customer"  description="" roles="Customer">
+      <siteMapNode url="~/Customer/UpdateProfile.aspx" title="Update Profile"  description="" />
+      <siteMapNode url="~/Customer/MaintainVehicle.aspx" title="Maintain Vehicle"  description="" />
+    </siteMapNode>
+    <siteMapNode url="~/ReportViewer/Default.aspx" title="ReportViewer"  description="" roles="ReportViewer,Admin">
+      <siteMapNode url="~/ReportViewer/NinetyDayUnpaidReport.aspx" title="NinetyDayUnpaidReport"  description="" />
+      <siteMapNode url="~/ReportViewer/OutstandingTollsReport.aspx" title="OutstandingTollsReport"  description="" />
+      <siteMapNode url="~/ReportViewer/PopularRegionReport.aspx" title="PopularRegionReport"  description="" />
+    </siteMapNode>
+    <siteMapNode url="~/DataCapturer/Default.aspx" title="DataCapturer"  description="" roles="DataCapturer,Admin">
+      <siteMapNode url="~/DataCapturer/ViewGantries.aspx" title="ViewGantries"  description="" />
+      <siteMapNode url="~/DataCapturer/MaintainGantry.aspx" title="MaintainGantry"  description="" />
+      <siteMapNode url="~/DataCapturer/AddTollTransaction.aspx" title="AddTollTransaction"  description="" />
+      <siteMapNode url="~/DataCapturer/AddPayment.aspx" title="AddPayment"  description="" />
+    </siteMapNode>
+    <siteMapNode url="~/Admin/Default.aspx" title="Admin"  description="" roles="Admin">
+      <siteMapNode url="~/Admin/ManageUsers.aspx" title="Manage Users"  description="" />
+      <siteMapNode url="~/Admin/AddReportViewer.aspx" title="Add Report Viewer"  description="" />
+      <siteMapNode url="~/Admin/SearchCustomers.aspx" title="Search Customer"  description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

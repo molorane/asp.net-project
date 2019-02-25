@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CCustomer">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACQAwAAAAAEAQAABAQAECAQAQCAACAAAAABAgo=</HashCode>
+      <FileName>App_Code\BLL\CCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGantry">
+    <Position X="4.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QACAAIACAAAAgBAAgAQQACCAAAEAAAAAAAgQAACAAQQ=</HashCode>
+      <FileName>App_Code\BLL\CGantry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPayment">
+    <Position X="11.75" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\CPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRegion">
+    <Position X="7.75" Y="2" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAoGAAIAAAAACAAkAAAAIAAhAIEAAAAAQ=</HashCode>
+      <FileName>App_Code\BLL\CRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTollRate">
+    <Position X="11.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAABAAwAAAACAAAAQAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\CTollRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTollTransaction">
+    <Position X="0.5" Y="6.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ICABgAQAAAACAIAAAAAAAAAAAAAwUCAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\CTollTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVehicle">
+    <Position X="4.5" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAABAAAAAAQEAAAAAAAAIEQQAgAAAwAACgABAAAA=</HashCode>
+      <FileName>App_Code\BLL\CVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
